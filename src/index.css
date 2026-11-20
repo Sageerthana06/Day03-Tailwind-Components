@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #101827;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Link Styling */
+a {
+  text-decoration: none;
+}
+
+/* Button Styling */
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
